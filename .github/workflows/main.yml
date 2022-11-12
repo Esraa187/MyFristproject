@@ -9,7 +9,11 @@ jobs:
 
 
     steps:
-      -  name: 'Printing Folder Contents'
+      -  name: 'Before Printing Folder Contents'
          run: ls
 
+      -  uses: action/checkout@
       
+
+      -  name: 'After Printing Folder Contents'
+         run: ls
