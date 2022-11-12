@@ -9,11 +9,8 @@ jobs:
 
 
     steps:
-      -  name: 'Before Printing Folder Contents'
-         run: ls
 
       -  uses: actions/checkout@v3
       
-
-      -  name: 'After Printing Folder Contents'
-         run: ls
+      -  name: "Login To Dockerhub"
+         run: docker login --username esraa123 --password dckr_pat_7ZrhVSTjqF0AOjESa3_S_DMnwxg
