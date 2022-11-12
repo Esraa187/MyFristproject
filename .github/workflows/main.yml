@@ -12,7 +12,7 @@ jobs:
       -  name: 'Before Printing Folder Contents'
          run: ls
 
-      -  uses: action/checkout@
+      -  uses: action/checkout@v3
       
 
       -  name: 'After Printing Folder Contents'
